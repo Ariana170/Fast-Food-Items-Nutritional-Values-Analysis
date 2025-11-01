@@ -6,16 +6,10 @@ This project analyzed the nutritional profiles of menu items from 6 major fast-f
 
 In the Power BI file, the first page contains a summary of the data presented in the Jupyter notebook, and the second page showcases different filters to get food items from each restaurant based on the Nutri Score. This way, it is easy to observe which are the healthiest choices.
 
-<p align="center">
-  <figure style="display:inline-block; margin:10px;">
-    <img src="images/fastfood_dashboard.png" alt="Dashboard" width="45%">
-    <figcaption>Fast Food Dashboard</figcaption>
-  </figure>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="images/nutrition_score.png" alt="Chart" width="45%">
-    <figcaption>Nutrient Correlation Chart</figcaption>
-  </figure>
-</p>
+| ![Dashboard](images/fastfood_dashboard.png) | ![Chart](images/nutrition_score.png) |
+|:-------------------------------------------:|:------------------------------------:|
+| **Fast Food Items Dashboard** | **Nutri-Score Filter** |
+
 
 Another interesting approach was to determine whether it was possible to predict which fast food restaurant an item came from based on its nutritional values. Using a Random Forest model, I achieved an accuracy of 96%.
 
